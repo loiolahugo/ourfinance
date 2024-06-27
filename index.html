@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>Our Finance</title>
+    <link rel="stylesheet" href="./static/styles.css">
+</head>
+<body>
+    <div id="root">
+        <section id="nav-bar">
+            <div id="hamburger-button">
+                <img id="inner-hamburger-button" src="./static/hmb.svg" alt="">
+            </div>
+            <div id="bank-icon">
+                <img id="inner-bank-icon" src="./static/bank-icon.png" alt="" class="circle-icon">
+            </div>
+            <div id="profile-icon">
+                <img id="inner-profile-icon" width="125" height="125" src="./static/bust.svg" alt="" class="circle-icon">
+            </div>
+            <div id="rectangle">
+            </div>
+        </section>
+        <div id="income">
+            <h1 id="income-text">Renda</h1>
+            <div id="inner-income">
+                <div id="eye"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#FA6A64" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                    <circle cx="12" cy="12" r="3"/>
+                  </svg></div>
+                <div id="income-value">R$ <div id="line"></div></div>
+            </div>
+        </div>
+        <section class="history">
+            <div id="history" class="card"">
+                <div class="label">
+                    <h1>Histórico</h1>
+                </div>
+                <div class="content">
+                    <div class="cell">
+                        <div class="card-icon" id="minus">-</div>
+                        <div class="card-label">Investimento</div>
+                        <div class="card-value" id="minus">R$600,00</div>
+                    </div>
+                    <div class="cell">
+                        <div class="card-icon" id="add">+</div>
+                        <div class="card-label">Hora Extra</div>
+                        <div class="card-value" id="add">R$60,30</div>
+                    </div>
+                    <div class="cell">
+                        <div class="card-icon" id="minus">-</div>
+                        <div class="card-label">Netflix</div>
+                        <div class="card-value" id="minus">R$ 39,90</div>
+                    </div>
+                    <div class="cell">
+                        <div class="card-icon" id="minus">-</div>
+                        <div class="card-label">Netflix</div>
+                        <div class="card-value" id="minus">R$ 39,90</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="card-container">
+            <div class="card" id="maxheight">
+                <div class="labelm" style="background: linear-gradient(110deg, #94C7B6 24.27%, #F66 116.69%);">
+                    <h1>Despesas nos meses</h1>
+                </div>
+
+                <div class="content">
+                    <div class="cell">
+                        <div class="card-label">Abril</div>
+                        <div class="card-value"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="32" viewBox="0 0 34 32" fill="none" id="edit">
+                            <g clip-path="url(#clip0_111_769)">
+                              <g filter="url(#filter0_d_111_769)">
+                                <path d="M4.46513 27.5499L7.23454 19.9263L22.4665 5.94954C23.8512 4.67893 26.6206 4.67893 28.0054 5.94954C29.3901 7.22015 29.3901 9.76138 28.0054 11.032L12.7734 25.0087L4.46513 27.5499Z" stroke="#FFF6F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges"/>
+                              </g>
+                              <path d="M21.0818 7.22015L26.6206 12.3026" stroke="#FFF6F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path d="M8.61929 19.9263L12.7734 23.7381" stroke="#FFF6F5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                              <filter id="filter0_d_111_769" x="-0.534889" y="3.99658" width="34.5788" height="32.5534" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                <feOffset dy="4"/>
+                                <feGaussianBlur stdDeviation="2"/>
+                                <feComposite in2="hardAlpha" operator="out"/>
+                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_111_769"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_111_769" result="shape"/>
+                              </filter>
+                              <clipPath id="clip0_111_769">
+                                <rect width="33.2333" height="30.4947" fill="white" transform="translate(0.310974 0.867065)"/>
+                              </clipPath>
+                            </defs>
+                          </svg>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <div class="card-label">Março</div>
+                        <div class="card-value"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="34" viewBox="0 0 36 34" fill="none" id="view">
+                            <g filter="url(#filter0_d_139_273)">
+                              <path d="M15.8505 14.6533L5.46513 24.1828" stroke="white" stroke-width="2" stroke-linecap="round" shape-rendering="crispEdges"/>
+                            </g>
+                            <g filter="url(#filter1_d_139_273)">
+                              <path d="M16.2069 14.3262C12.9623 11.349 12.9623 6.52199 16.2069 3.54475C19.4515 0.56752 24.712 0.56752 27.9566 3.54475C31.2012 6.52199 31.2012 11.349 27.9566 14.3262C24.712 17.3035 19.4515 17.3035 16.2069 14.3262Z" stroke="white" stroke-width="2" stroke-linecap="round" shape-rendering="crispEdges"/>
+                            </g>
+                            <defs>
+                              <filter id="filter0_d_139_273" x="0.465126" y="13.6533" width="20.3854" height="19.5296" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                <feOffset dy="4"/>
+                                <feGaussianBlur stdDeviation="2"/>
+                                <feComposite in2="hardAlpha" operator="out"/>
+                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_139_273"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_139_273" result="shape"/>
+                              </filter>
+                              <filter id="filter1_d_139_273" x="8.77345" y="0.311829" width="26.6166" height="25.2474" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                <feOffset dy="4"/>
+                                <feGaussianBlur stdDeviation="2"/>
+                                <feComposite in2="hardAlpha" operator="out"/>
+                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_139_273"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_139_273" result="shape"/>
+                              </filter>
+                            </defs>
+                          </svg>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <div class="card-label">Fevereiro</div>
+                        <div class="card-value"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="34" viewBox="0 0 36 34" fill="none" id="view">
+                            <g filter="url(#filter0_d_139_273)">
+                              <path d="M15.8505 14.6533L5.46513 24.1828" stroke="white" stroke-width="2" stroke-linecap="round" shape-rendering="crispEdges"/>
+                            </g>
+                            <g filter="url(#filter1_d_139_273)">
+                              <path d="M16.2069 14.3262C12.9623 11.349 12.9623 6.52199 16.2069 3.54475C19.4515 0.56752 24.712 0.56752 27.9566 3.54475C31.2012 6.52199 31.2012 11.349 27.9566 14.3262C24.712 17.3035 19.4515 17.3035 16.2069 14.3262Z" stroke="white" stroke-width="2" stroke-linecap="round" shape-rendering="crispEdges"/>
+                            </g>
+                            <defs>
+                              <filter id="filter0_d_139_273" x="0.465126" y="13.6533" width="20.3854" height="19.5296" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                <feOffset dy="4"/>
+                                <feGaussianBlur stdDeviation="2"/>
+                                <feComposite in2="hardAlpha" operator="out"/>
+                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_139_273"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_139_273" result="shape"/>
+                              </filter>
+                              <filter id="filter1_d_139_273" x="8.77345" y="0.311829" width="26.6166" height="25.2474" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                <feOffset dy="4"/>
+                                <feGaussianBlur stdDeviation="2"/>
+                                <feComposite in2="hardAlpha" operator="out"/>
+                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_139_273"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_139_273" result="shape"/>
+                              </filter>
+                            </defs>
+                          </svg>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <div class="card-label">Janeiro</div>
+                        <div class="card-value"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="34" viewBox="0 0 36 34" fill="none" id="view">
+                            <g filter="url(#filter0_d_139_273)">
+                              <path d="M15.8505 14.6533L5.46513 24.1828" stroke="white" stroke-width="2" stroke-linecap="round" shape-rendering="crispEdges"/>
+                            </g>
+                            <g filter="url(#filter1_d_139_273)">
+                              <path d="M16.2069 14.3262C12.9623 11.349 12.9623 6.52199 16.2069 3.54475C19.4515 0.56752 24.712 0.56752 27.9566 3.54475C31.2012 6.52199 31.2012 11.349 27.9566 14.3262C24.712 17.3035 19.4515 17.3035 16.2069 14.3262Z" stroke="white" stroke-width="2" stroke-linecap="round" shape-rendering="crispEdges"/>
+                            </g>
+                            <defs>
+                              <filter id="filter0_d_139_273" x="0.465126" y="13.6533" width="20.3854" height="19.5296" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                <feOffset dy="4"/>
+                                <feGaussianBlur stdDeviation="2"/>
+                                <feComposite in2="hardAlpha" operator="out"/>
+                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_139_273"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_139_273" result="shape"/>
+                              </filter>
+                              <filter id="filter1_d_139_273" x="8.77345" y="0.311829" width="26.6166" height="25.2474" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                <feOffset dy="4"/>
+                                <feGaussianBlur stdDeviation="2"/>
+                                <feComposite in2="hardAlpha" operator="out"/>
+                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_139_273"/>
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_139_273" result="shape"/>
+                              </filter>
+                            </defs>
+                          </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="labelm" style="background: linear-gradient(113deg, #F66 6.55%, #94C7B6 78.7%);">
+                    <h1>Último mês - maio</h1>
+
+                </div>
+                <div class="content">
+                    <div class="cell">
+                        <div class="card-icon" id="minus">-</div>
+                        <div class="card-label">Investimento</div>
+                        <div class="card-value" id="minus">R$600,00</div>
+                    </div>
+                    <div class="cell">
+                        <div class="card-icon" id="add">+</div>
+                        <div class="card-label">Hora Extra</div>
+                        <div class="card-value" id="add">R$60,30</div>
+                    </div>
+                    <div class="cell">
+                        <div class="card-icon" id="minus">-</div>
+                        <div class="card-label">Netflix</div>
+                        <div class="card-value" id="minus">R$ 39,90</div>
+                    </div>
+                    <div class="cell">
+                        <div class="card-icon" id="minus">-</div>
+                        <div class="card-label">Netflix</div>
+                        <div class="card-value" id="minus">R$ 39,90</div>
+                    </div>
+                </div>
+        </section>
+    </div>
+</body>
+</html>
