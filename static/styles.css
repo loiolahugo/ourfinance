@@ -191,6 +191,7 @@ img .circle-icon {
 
 /* Estilo para os cards */
 .card {
+    z-index: -9999;
     display: flex;
     flex-direction: column;
     background-color: #fff9f4;
